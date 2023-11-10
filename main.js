@@ -18,7 +18,7 @@ const mystery2 = [5, 4, 6, 6, 1, 0, 0, 8, 6, 1, 6, 2, 0, 2, 3, 9];
 const mystery3 = [6, 0, 1, 1, 3, 7, 7, 0, 2, 0, 9, 6, 2, 6, 5, 6, 2, 0, 3];
 const mystery4 = [4, 9, 2, 9, 8, 7, 7, 1, 6, 9, 2, 1, 7, 0, 9, 3];
 const mystery5 = [4, 9, 1, 3, 5, 4, 0, 4, 6, 3, 0, 7, 2, 5, 2, 3];
-
+const kriwed = [4, 8, 7, 1, 5,8,0,0,0,2,8,4,4,2,0,6]
 // An array of all the arrays above
 const batch = [
 	valid1,
@@ -96,3 +96,4 @@ const idInvalidCardCompanies = (invalidCards) => {
 };
 
 console.log(idInvalidCardCompanies(findInvalidCards(batch)));
+console.log(validateCred(kriwed))
